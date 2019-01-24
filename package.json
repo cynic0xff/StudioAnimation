@@ -1,0 +1,28 @@
+{
+  "name": "ensembleanimation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Loading...",
+    "babel": "./node_modules/.bin/babel src --out-dir dist",
+    "csass": "sass src/stylesheets/index.scss dist/css/style.css",
+    "all": "npm run babel && npm run csass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://scottnrt@bitbucket.org/scottnrt/ensembleanimation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/scottnrt/ensembleanimation#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}

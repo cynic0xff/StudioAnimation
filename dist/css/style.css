@@ -1,0 +1,29 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.icw-s,
+.icw-t,
+.icw-u,
+.icw-d,
+.icw-i,
+.icw-o {
+  font-size: 4.4rem;
+  font-weight: bold;
+  letter-spacing: 1.7rem;
+  color: #fff;
+  display: inline-block;
+  text-shadow: -1px -1px 0 #ef476f, 1px -1px 0 #ef476f, -1px 1px 0 #ef476f, 1px 1px 0 #ef476f;
+}
+
+.container {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+$frenchy:       #2d7dd2;  
+$razz:          #ef476f;
+$mango:         #ffae03;
+$noir:          #1b1c1d;
+$bumble:        #ffd600;
+$lime:          #97cc04;
+$font-size:       4.4rem;
+$letter-spacing:  1.7rem;
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.icw-s,
+.icw-t,
+.icw-u,
+.icw-d,
+.icw-i,
+.icw-o {
+  font-size: $font-size;
+  font-weight: bold;
+  letter-spacing: $letter-spacing;
+  color: #fff;
+  display: inline-block;
+  text-shadow:
+      -1px -1px 0 $razz, 
+      1px -1px 0 $razz, 
+      -1px 1px 0 $razz, 
+      1px 1px 0 $razz
+}
+
+.container {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
