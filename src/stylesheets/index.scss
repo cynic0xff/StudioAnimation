@@ -8,7 +8,7 @@ $font-size:       4.4rem;
 $letter-spacing:  1.7rem;
 
 body {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
   overflow-x: hidden;
 }
 
@@ -30,11 +30,20 @@ body {
       1px 1px 0 $razz
 }
 
-.container {
+/*.container {
   position: absolute;
   top: calc(50% - 40px);
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+}*/
+
+.container {
+  position: relative;
+  top: calc(50% - 50px);
+}
+
+.studio-letters {
+  background: #2d7dd2;
 }

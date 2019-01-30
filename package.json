@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.3.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.2.5"
+    "@babel/polyfill": "^7.2.5",
+    "npm-watch": "^0.6.0"
   }
 }

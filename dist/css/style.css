@@ -1,5 +1,5 @@
 body {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
   overflow-x: hidden;
 }
 
@@ -17,13 +17,21 @@ body {
   text-shadow: -1px -1px 0 #ef476f, 1px -1px 0 #ef476f, -1px 1px 0 #ef476f, 1px 1px 0 #ef476f;
 }
 
-.container {
+/*.container {
   position: absolute;
   top: calc(50% - 40px);
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+}*/
+.container {
+  position: relative;
+  top: calc(50% - 50px);
+}
+
+.studio-letters {
+  background: #2d7dd2;
 }
 
 /*# sourceMappingURL=style.css.map */
